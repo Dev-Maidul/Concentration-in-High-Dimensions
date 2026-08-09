@@ -1,0 +1,45 @@
+# Experiment Configuration
+# This file contains all configurable parameters for the high-dimensional geometry experiments
+
+random_seed: 42
+
+# Dimensions to test
+dimensions: [2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000]
+
+# Sample sizes
+fixed_sample_size: 10000
+
+# Aspect ratios (gamma = d/n)
+aspect_ratios: [0.1, 0.5, 1.0, 2.0]
+
+# Number of independent trials
+n_trials: 50
+
+# Distributions to test
+distributions:
+  - gaussian
+  - uniform
+  - laplace
+  - student_t
+
+# Student-t degrees of freedom
+t_df: 3
+
+# Distance computation subsampling
+distance_subsample: 1000
+
+# k-Nearest Neighbors
+k_neighbors: 10
+
+# Johnson-Lindenstrauss parameters
+jl_epsilon_values: [0.1, 0.2, 0.3]
+
+# Figure settings
+figure_dpi: 300
+figure_formats: ['png', 'pdf']
+
+# Multiprocessing
+n_jobs: -1  # -1 means use all available cores
+
+# Logging
+log_level: INFO
