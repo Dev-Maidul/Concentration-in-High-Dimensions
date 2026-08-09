@@ -423,9 +423,9 @@ Intrinsic dimension estimates from preprocessing:
 ## Citation
 
 ```bibtex
-@article{hossain2026geometry,
+@article{,
   title={Empirical Scaling Laws in High-Dimensional Geometry},
-  author={Hossain, MD Naeem},
+  author={Islam, MD Maidul},
   journal={},
   year={2026}
 }

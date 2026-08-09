@@ -3,6 +3,8 @@ Main Experiment Runner
 Entry point for running all experiments or specific experiment blocks.
 Updated to include Section 5 (universality) and Section 6 (real embeddings).
 """
+import utils.transport
+import utils.session
 import argparse
 import logging
 import sys
